@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    /* height: 70px; */
+    /* background-color: black; */
+}
+body{
+    background-image: url(jonatan-pie-h8nxGssjQXs-unsplash.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+}
+.image{
+   height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+     margin-top :50px ; 
+
+}
+.menu {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 10px;
+    background-color:transparent;
+}
+
+
+.menu .logo {
+    width: 30%;
+    color: white;
+    padding: 0px;
+    font-size: 35px;
+
+}
+.menu .logo span{
+    font-size: 50px;
+    color: greenyellow;
+}
+
+
+
+
+.menu .contain {
+    width: 50%;
+    padding: 10px;
+}
+
+.menu .contain nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu .contain nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+
+}
+
+.menu .profile {
+    width: 20%;
+    
+}
+.menu .profile span{
+    color: greenyellow;
+    font-size:35px;
+}
+.menu .profile button{
+    color: white;
+    background-color: rgb(8, 8, 231);
+    border: 2px solid transparent;
+    border-radius: 37px;
+    height: 39px;
+    width: 134px;
+    font-size: small;
+    font-weight: 200;
+    
+    
+}
+section{
+    width: 100%;
+    padding-left: 100px;
+ 
+}
+
+section .main .sub1 {
+    width: 100%;
+    color: white;
+    font-size:120px;
+    padding-top: 10px;
+    text-shadow:4px 2px 2px  gray;
+  
+}
+
+
+section .main button{
+    width: 400px;
+    height: 60px;
+    background-color: whitesmoke;
+    border-radius: 35px;
+   color: black;
+   font-weight: 400;
+   
+}
+section .main button span{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 40%;
+    font-size: 35px;
+    color: white;
+    padding-right: 5px;
+   
+}
+

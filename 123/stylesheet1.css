@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 80px;
+    background-color: transparent;
+    width: 100%;
+}
+
+header .m1 {
+    position:fixed;
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    background-color: aqua;
+}
+
+header .m1 .logo {
+    width: 25%;
+    padding-top: 15px;
+    font-size: 34px;
+}
+
+header .m1 .logo span {
+    color: red;
+}
+header .m1 .menu {
+    width: 65%;
+}
+header .m1 .menu nav ul {
+    list-style: none;
+    display: flex;
+    padding-top: 15px;
+}
+
+header .m1 .menu nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+
+}
+header .m1 .menu nav ul li a span{
+    color: red;
+}
+
+header .m1 .m2 {
+    width: 20%;
+    padding-top: 3px;
+    display: flex;
+    font-size: 30px;
+}
+header .m1 .m2 .search{
+    height: 29px;
+    width: 28px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding-left: 6px;
+    padding-top: 6px;
+    font-size: 20px;
+    border-radius: 30px;
+   
+}
+header .m1 .m2 .search :hover{
+
+}
+header .m1 .m2 .daynight{
+    height: 29px;
+    width: 28px;
+    padding-left: 6px;
+    padding-top: 2.5px;
+    color: white;
+
+}
+
+
+section  .img1{
+    background-image: url(anastase-maragos-9dzWZQWZMdE-unsplash.jpg);
+     background-attachment: fixed; 
+    background-size: cover;
+    height: 650px;
+    width: 100%; 
+    z-index: -1;
+    /* padding-top: 1px; */
+   position: relative;
+    
+}
+section .text1{
+    font-size: xx-large;
+    color: white;
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+    text-align: center;
+   padding: 150px 350px;
+    font-size: 70px;
+}
+section .text1 button{
+    font-size: medium;
+    height: 55px;
+    width: 160px;
+    color: white;
+    background-color: red;
+    border: 2px solid transparent;
+    border-radius:15px;   
+    transition: all 1s 2s linear;
+
+    
+  
+}
+section .text1 button :hover{
+    height: 58px;
+    width: 164px;
+}
+
+
+
+
+
+
